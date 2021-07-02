@@ -6,9 +6,9 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
-import Backpack from "./Backpack";
+import Backpack from "./Backpack.js";
 
-import flowerpot from "./flowerpot";
+import flowerpot from "./flowerpot.js";
 
 let pot1 = new flowerpot("rose", "red", 5, 10, 14, 17, 21);
 var Back = new Backpack();
