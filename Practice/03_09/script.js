@@ -24,16 +24,16 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
   newName(name) {
-    this.name = name;
+    this.name = name;//new name
   },
   newVolume(volume) {
-    this.volume = volume;
+    this.volume = volume; //new volume 
   },
   newColor(color) {
-    this.color = color;
+    this.color = color; //new color
   },
   incPocketNum() {
-    this.pocketNum++;
-    console.log(this.pocketNum);
+    this.pocketNum++;  //increase pocketNum
+    console.log(this.pocketNum); 
   },
 };
